@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "target": "192.168.0.1",
+    "ports": "1-1000",
+    "arguments": "-sS -T4",
+    "timestamp": "2025-06-03T14:06:06.019750"
+  },
+  "hosts": {
+    "192.168.0.1": {
+      "state": "up",
+      "protocols": {
+        "tcp": {
+          "22": {
+            "state": "open",
+            "service": "ssh",
+            "details": {
+              "product": "",
+              "version": ""
+            }
+          },
+          "80": {
+            "state": "open",
+            "service": "http",
+            "details": {
+              "product": "",
+              "version": ""
+            }
+          },
+          "443": {
+            "state": "open",
+            "service": "https",
+            "details": {
+              "product": "",
+              "version": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
